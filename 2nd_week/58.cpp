@@ -1,7 +1,6 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<climits>
 using namespace std;
 int main(){
     int n;
@@ -14,18 +13,13 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    bool flag=true;
-    for(int i=0;i<n-1;i++){
-        if(v[i]>v[i+1]){
-            flag=false;
-            break;
-        }
+    vector<int> v2;
+    for(int i=v.size()-1;i>0;i--){
+        v2.push_back(v[i]);
     }
-    if(flag){
-        cout<<"The array is sorted in ascending order"<<endl;
-    }
-    else{
-        cout<<"The array is not sorted in ascending order"<<endl;
+    for(int i=0;i<v2.size();i++){
+        cout<<v2[i]<<" ";
     }
     return 0;
+
 }

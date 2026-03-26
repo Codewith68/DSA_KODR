@@ -2,17 +2,6 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-void reverseArray(vector<int>&v){
-    int i=0;
-    int j=v.size()-1;
-    while(i<j){
-        int temp=v[i];
-        v[i]=v[j];
-        v[j]=temp;
-        i++;
-        j--;
-    }
-}
 int main(){
     int n;
     cout<<"Enter the size of the array";
@@ -24,9 +13,22 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    reverseArray(v);
+    int target;
+    cout<<"Enter the target element";
+    cin>>target;
+
+    int index=-1;
     for(int i=0;i<n;i++){
-        cout<<v[i]<<" ";
+        if(v[i]==target){
+            index=i;
+            break;
+        }
+    }
+    if(index!=-1){
+        cout<<"The index of the target element is "<<index<<endl;
+    }
+    else{
+        cout<<"The target element is not present in the array"<<endl;
     }
     return 0;
 }

@@ -13,12 +13,12 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    int temp=v[0];
-    for(int i = 0; i < n - 1; i++){
-        v[i] = v[i + 1];
-    }
-    v[n - 1] = temp;
+    int sum=0;
     for(int i=0;i<n;i++){
-        cout<<v[i]<<" ";
+        sum+=v[i];
     }
+    int avg=sum/n;
+    cout<<"The sum of the array is "<<sum<<endl;
+    cout<<"The average of the array is "<<avg<<endl;
+    return 0;
 }

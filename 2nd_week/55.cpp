@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
+#include<climits>
 using namespace std;
 int main(){
     int n;
@@ -13,12 +14,14 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    int sum=0;
+    int maxx=INT_MIN;
+    int x=0;
     for(int i=0;i<n;i++){
-        sum+=v[i];
+        if(v[i]>maxx){
+            maxx=v[i];
+            x=i;
+        }
     }
-    int avg=sum/n;
-    cout<<"The sum of the array is "<<sum<<endl;
-    cout<<"The average of the array is "<<avg<<endl;
+    cout<<"The maximum element in the array is "<<maxx<<" and its index is "<<x<<endl;
     return 0;
 }

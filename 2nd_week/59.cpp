@@ -13,13 +13,12 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    vector<int> v2;
-    for(int i=v.size()-1;i>0;i--){
-        v2.push_back(v[i]);
+    int temp=v[0];
+    for(int i = 0; i < n - 1; i++){
+        v[i] = v[i + 1];
     }
-    for(int i=0;i<v2.size();i++){
-        cout<<v2[i]<<" ";
+    v[n - 1] = temp;
+    for(int i=0;i<n;i++){
+        cout<<v[i]<<" ";
     }
-    return 0;
-
 }

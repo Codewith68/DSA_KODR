@@ -16,19 +16,17 @@ int main(){
     int target;
     cout<<"Enter the target element";
     cin>>target;
-
-    int index=-1;
-    for(int i=0;i<n;i++){
-        if(v[i]==target){
-            index=i;
-            break;
+    int low=0;
+    int high=n-1;
+    while(low<=high){
+        int mid=low+(high-low)/2;
+        if(v[mid]==target) {
+            cout<<"The index of the target element is "<<mid<<endl;
+            return 0;
         }
+        else if(v[mid]<target)  low=mid+1;
+        else high=mid-1;
     }
-    if(index!=-1){
-        cout<<"The index of the target element is "<<index<<endl;
-    }
-    else{
-        cout<<"The target element is not present in the array"<<endl;
-    }
+    cout<<"The target element is not present in the array"<<endl;
     return 0;
-}
+    }

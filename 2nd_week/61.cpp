@@ -1,8 +1,18 @@
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<climits>
 using namespace std;
+void reverseArray(vector<int>&v){
+    int i=0;
+    int j=v.size()-1;
+    while(i<j){
+        int temp=v[i];
+        v[i]=v[j];
+        v[j]=temp;
+        i++;
+        j--;
+    }
+}
 int main(){
     int n;
     cout<<"Enter the size of the array";
@@ -14,18 +24,9 @@ int main(){
         cin>>s;
         v.push_back(s);
     }
-    bool flag=true;
-    for(int i=0;i<n-1;i++){
-        if(v[i]>v[i+1]){
-            flag=false;
-            break;
-        }
-    }
-    if(flag){
-        cout<<"The array is sorted in ascending order"<<endl;
-    }
-    else{
-        cout<<"The array is not sorted in ascending order"<<endl;
+    reverseArray(v);
+    for(int i=0;i<n;i++){
+        cout<<v[i]<<" ";
     }
     return 0;
 }
