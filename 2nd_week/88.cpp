@@ -31,4 +31,3 @@ public:
         sort(v.begin(),v.end());
         return (v[0]*10 + v[2]) + (v[1]*10 +v[3]);
     }
-};

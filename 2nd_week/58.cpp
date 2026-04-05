@@ -14,7 +14,7 @@ int main(){
         v.push_back(s);
     }
     vector<int> v2;
-    for(int i=v.size()-1;i>0;i--){
+    for(int i=v.size()-1;i>=0;i--){
         v2.push_back(v[i]);
     }
     for(int i=0;i<v2.size();i++){
