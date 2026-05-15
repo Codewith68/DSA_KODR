@@ -27,7 +27,6 @@
 // Second: nums = [1,4]
 // Third: nums = [1]
 // 1 is the last remaining number, so we return 1.
-
 //code 
 class Solution {
 public:
