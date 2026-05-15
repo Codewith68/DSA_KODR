@@ -8,7 +8,6 @@
  
 
 // Example 1:
-
 // Input: num = 16
 // Output: true
 // Explanation: We return true because 4 * 4 = 16 and 4 is an integer.
