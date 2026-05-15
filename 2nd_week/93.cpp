@@ -1,7 +1,4 @@
 //LEETCODE 867
-
-
-
 //code 
 
 class Solution {
