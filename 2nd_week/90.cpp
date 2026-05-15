@@ -20,7 +20,6 @@
 
 // Example 1:
 
-
 // Input: nums = [1,3,5,2,4,8,2,2]
 // Output: 1
 // Explanation: The following arrays are the results of applying the algorithm repeatedly.
