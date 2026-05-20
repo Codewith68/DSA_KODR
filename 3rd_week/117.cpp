@@ -8,7 +8,6 @@
 
 // Return true if s is a well-spaced string, otherwise return false.
 
- 
 
 // Example 1:
 
