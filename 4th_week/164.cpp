@@ -6,7 +6,6 @@
 
 // Note that the strings are considered in the order in which they appear in the array.
 
- 
 
 // Example 1:
 
