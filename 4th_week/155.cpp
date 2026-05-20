@@ -14,7 +14,6 @@
 
 // Input: sentence = "leetcode"
 // Output: false
- 
 
 // Constraints:
 
