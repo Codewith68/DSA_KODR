@@ -17,7 +17,6 @@
 
 // Input: nums = [1]
 // Output: []
- 
 
 // Constraints:
 
