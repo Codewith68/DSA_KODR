@@ -23,7 +23,6 @@
 // Input: paragraph = "a.", banned = []
 // Output: "a"
  
-
 // Constraints:
 
 // 1 <= paragraph.length <= 1000
