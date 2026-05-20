@@ -5,7 +5,6 @@
 
 // Your task is to solve it in O(log(n)) time complexity.
 
- 
 
 // Example 1:
 
