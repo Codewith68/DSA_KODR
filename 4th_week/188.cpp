@@ -29,7 +29,6 @@
 // Output: -1
 // Explanation: 3 does not exist in the array, so we return -1.
  
-
 // Constraints:
 
 // 3 <= mountainArr.length() <= 104
