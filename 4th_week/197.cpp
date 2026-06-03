@@ -7,7 +7,7 @@
 
 // Return the minimum integer k such that she can eat all the bananas within h hours.
 
- 
+
 
 // Example 1:
 
