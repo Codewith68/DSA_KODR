@@ -10,7 +10,6 @@
 
 // A Sudoku board (partially filled) could be valid but is not necessarily solvable.
 // Only the filled cells need to be validated according to the mentioned rules.
- 
 
 // Example 1:
 
