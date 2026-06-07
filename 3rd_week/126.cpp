@@ -7,7 +7,6 @@
 
 // Return true if so, or false otherwise.
 
- 
 
 // Example 1:
 
