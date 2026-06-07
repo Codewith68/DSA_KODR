@@ -6,8 +6,6 @@
 // Given a string s representing a sentence, you need to check if all the numbers in s are strictly increasing from left to right (i.e., other than the last number, each number is strictly smaller than the number on its right in s).
 
 // Return true if so, or false otherwise.
-
-
 // Example 1:
 
 // example-1
