@@ -8,7 +8,6 @@
 
 // Return the leftmost pivot index. If no such index exists, return -1.
 
- 
 
 // Example 1:
 
