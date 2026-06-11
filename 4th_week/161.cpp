@@ -22,7 +22,6 @@
 // Output: 1
 // Explanation: Alice can only eat 4 / 2 = 2 candies. Even though she can eat 2 candies, she only has 1 type.
  
-
 // Constraints:
 
 // n == candyType.length
