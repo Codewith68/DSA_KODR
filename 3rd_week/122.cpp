@@ -3,7 +3,6 @@
 
 // Return true if for every index i in the range 0 <= i < n, the digit i occurs num[i] times in num, otherwise return false.
 
- 
 
 // Example 1:
 
