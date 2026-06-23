@@ -14,7 +14,6 @@
 // Return the array formed after rearranging the values of nums.
 
 
-
 // Example 1:
 
 // Input: nums = [4,1,2,3]
