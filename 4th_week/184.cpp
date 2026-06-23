@@ -21,7 +21,6 @@
 // Input: n = 1, bad = 1
 // Output: 1
 // Constraints:
-
 // 1 <= bad <= n <= 231 - 1
 
 //code
