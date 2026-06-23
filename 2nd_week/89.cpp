@@ -13,7 +13,7 @@
 // For example, if nums = [4,1,2,3] before this step, it becomes [2,1,4,3] after. The values at even indices 0 and 2 are sorted in non-decreasing order.
 // Return the array formed after rearranging the values of nums.
 
- 
+
 
 // Example 1:
 
