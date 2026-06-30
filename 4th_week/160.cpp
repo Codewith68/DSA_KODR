@@ -12,8 +12,6 @@
  
 
 // Example 1:
-
-
 // Input: key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
 // Output: "this is a secret"
 // Explanation: The diagram above shows the substitution table.
