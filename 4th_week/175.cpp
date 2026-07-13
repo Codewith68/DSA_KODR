@@ -16,7 +16,6 @@
 // Output: -1
 // Explanation: 2 does not exist in nums so return -1
  
-
 // Constraints:
 
 // 1 <= nums.length <= 104
