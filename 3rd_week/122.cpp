@@ -5,7 +5,6 @@
 
 
 // Example 1:
-
 // Input: num = "1210"
 // Output: true
 // Explanation:
