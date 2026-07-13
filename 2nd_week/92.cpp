@@ -1,5 +1,4 @@
 //LLETCODE 1572
-
 //code 
 class Solution {
 public:
