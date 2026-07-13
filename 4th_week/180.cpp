@@ -6,7 +6,7 @@ int ceilSearch(vector<int>&arr,int x) {
     while(low<=high){
         int mid=low+(high-low)/2;
         if(arr[mid]>=x){
-            ans=mid;        // possible ceiling
+            ans=mid;       // possible ceiling
             high=mid-1;   // try to find smaller one
         } else low=mid+1;
     }
