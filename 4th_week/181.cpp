@@ -18,7 +18,6 @@ int main() {
     int x=10;
 
     int index=ceilSearch(arr,x);
-
     if(index==-1) cout<<"Ceiling doesn't exist";
     else cout<<"Ceiling of "<<x<<"is "<<arr[index]<<" at index "<<index<<endl;
 }
