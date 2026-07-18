@@ -11,8 +11,6 @@ int main() {
         cin>>v[i];
     }
     sort(v.begin(),v.end());
-
-    
     int sum=0;
     for(int i=1;i<n;i++) {
         sum +=abs(v[i]-v[i-1]);
