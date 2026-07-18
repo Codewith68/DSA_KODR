@@ -15,7 +15,6 @@ int countSteps(vector<int>& arr){
     }
     return steps;
 }
-
 int main(){
     int n;
     cout<<"Enter size: ";
