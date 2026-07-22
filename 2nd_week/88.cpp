@@ -12,7 +12,6 @@
 // Return the minimum possible sum of new1 and new2.
 
  
-
 // Example 1:
 
 // Input: num = 2932
