@@ -6,7 +6,6 @@ int searchInfinite(vector<int>& arr, int target) {
         low = high;
         high = high * 2;
     }
-
     // Phase 2: Binary search
     while (low <= high) {
         int mid = low + (high - low) / 2;
