@@ -4,7 +4,6 @@
 // Return the resulting string after removing exactly one occurrence of digit from number such that the value of the resulting string in decimal form is maximized. The test cases are generated such that digit occurs at least once in number.
 
  
-
 // Example 1:
 
 // Input: number = "123", digit = "3"
