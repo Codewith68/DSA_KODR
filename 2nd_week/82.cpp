@@ -5,7 +5,6 @@
 
 // x mod y denotes the remainder when x is divided by y.
 
-
 // Example 1:
 
 // Input: nums = [0,1,2]
