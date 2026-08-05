@@ -6,7 +6,6 @@
 // You must not use any built-in library function, such as sqrt.
 
  
-
 // Example 1:
 // Input: num = 16
 // Output: true
