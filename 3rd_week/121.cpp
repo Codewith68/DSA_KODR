@@ -15,7 +15,6 @@
 // Output: "231"
 // Explanation: We can remove the first '1' to get "231" or remove the second '1' to get "123".
 // Since 231 > 123, we return "231".
-
 // code 
 class Solution {
     public:
