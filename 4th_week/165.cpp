@@ -16,7 +16,6 @@
 // Explanation:
 
 // The bijection can be established as:
-
 // 'a' maps to "dog".
 // 'b' maps to "cat".
 // Example 2:
