@@ -1,5 +1,5 @@
 //LLETCODE 1572
-//code 
+//code
 class Solution {
 public:
     int diagonalSum(vector<vector<int>>& mat) {
