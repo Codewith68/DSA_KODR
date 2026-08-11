@@ -21,7 +21,7 @@
 // }
 // If all assertions pass, then your solution will be accepted.
 
- 
+
 
 // Example 1:
 
