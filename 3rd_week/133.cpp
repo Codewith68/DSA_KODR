@@ -9,7 +9,6 @@
 // arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
 
  
-
 // Example 1:
 
 // Input: arr = [2,1]
