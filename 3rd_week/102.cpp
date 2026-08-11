@@ -11,7 +11,6 @@ int main(){
    for(int i=s.length()-1;i>=0;i--){
     ss+=s[i];
    }
-
    cout<<"reversed string: "<< ss<<endl;
    if(s==ss) cout<<"The string is a palindrome"<<endl;
    else cout<<"The string is not a palindrome"<<endl;
