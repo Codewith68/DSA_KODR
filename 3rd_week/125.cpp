@@ -7,7 +7,6 @@
 // The frequency of a letter x is the number of times it occurs in the string.
 
  
-
 // Example 1:
 
 // Input: word1 = "aaaa", word2 = "bccb"
