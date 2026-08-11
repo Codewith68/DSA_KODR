@@ -13,7 +13,6 @@ int main(){
     int target;
     cout<<"Enter target: ";
     cin>>target;
-
     int lo=0,hi=x-1;
     bool found=false;
 
