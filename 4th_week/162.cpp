@@ -5,7 +5,7 @@
 
 // Return the letter that was added to t.
 
- 
+
 
 // Example 1:
 
