@@ -5,7 +5,7 @@
 
 // Return names sorted in descending order by the people's heights.
 
- 
+
 
 // Example 1:
 
