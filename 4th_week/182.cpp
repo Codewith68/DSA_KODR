@@ -21,7 +21,6 @@
 // Explanation: There are no characters in letters that is lexicographically greater than 'z' so we return letters[0].
 
 // Constraints:
-
 // 2 <= letters.length <= 104
 // letters[i] is a lowercase English letter.
 // letters is sorted in non-decreasing order.
