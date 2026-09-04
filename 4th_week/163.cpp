@@ -5,7 +5,7 @@
 
 // Given a string word, return the number of vowel substrings in word.
 
- 
+
 
 // Example 1:
 
