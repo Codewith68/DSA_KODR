@@ -9,7 +9,7 @@
 // For example, given key = "happy boy" (actual key would have at least one instance of each letter in the alphabet), we have the partial substitution table of ('h' -> 'a', 'a' -> 'b', 'p' -> 'c', 'y' -> 'd', 'b' -> 'e', 'o' -> 'f').
 // Return the decoded message.
 
- 
+
 
 // Example 1:
 // Input: key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
