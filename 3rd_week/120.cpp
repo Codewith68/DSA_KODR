@@ -10,7 +10,6 @@
 // A substring is a contiguous sequence of characters within a string.
 // There may be leading zeroes in num or a good integer.
  
-
 // Example 1:
 
 // Input: num = "6777133339"
