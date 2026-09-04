@@ -30,7 +30,6 @@
 // Input: words = ["a"]
 // Output: 1
  
-
 // Constraints:
 
 // 1 <= words.length <= 100
