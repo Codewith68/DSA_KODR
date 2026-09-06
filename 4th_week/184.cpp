@@ -16,7 +16,6 @@
 // call isBadVersion(4) -> true
 // Then 4 is the first bad version.
 // Example 2:
-
 // Input: n = 1, bad = 1
 // Output: 1
 // Constraints:
