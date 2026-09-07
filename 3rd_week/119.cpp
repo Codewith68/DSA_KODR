@@ -6,7 +6,6 @@
  
 
 // Example 1:
-
 // Input: s = "ilovecodingonleetcode", target = "code"
 // Output: 2
 // Explanation:
