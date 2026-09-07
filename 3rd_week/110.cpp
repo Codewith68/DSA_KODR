@@ -3,7 +3,6 @@
 #include<vector>
 #include<unordered_map>
 using namespace std;
-
 int main(){
     string s;
     cout<<"Enter a string: ";
