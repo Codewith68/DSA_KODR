@@ -11,7 +11,6 @@
 // Given a string password, return true if it is a strong password. Otherwise, return false.
 
  
-
 // Example 1:
 
 // Input: password = "IloveLe3tcode!"
