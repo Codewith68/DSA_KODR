@@ -9,7 +9,7 @@ int orderAgnosticBinarySearch(int arr[],int n,int target){
         else if(isAsc){
             if(arr[mid]<target) lo=mid+1;
             else hi=mid-1;
-        }
+        
         else{
             if(arr[mid]>target) lo=mid+1;
             else hi=mid-1;
